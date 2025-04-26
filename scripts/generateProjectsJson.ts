@@ -6,8 +6,8 @@ import { dirname, join } from 'path';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-const projectsDir = join(__dirname, 'public', 'projects');
-const outputFile = join(__dirname, 'public', 'projects.json');
+const projectsDir = join(__dirname, '..', 'public', 'projects');
+const outputFile = join(__dirname, '..', 'public', 'projects.json');
 
 const projects = readdirSync(projectsDir)
   .filter(folder => statSync(join(projectsDir, folder)).isDirectory())
