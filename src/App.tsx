@@ -1,12 +1,11 @@
-import './App.css'
+import "./App.css";
 
 function App() {
-
   return (
     <>
-      <p>Sumpter Software LLC</p>
+      <h1 className="text-3xl font-bold underline">Sumpter Software LLC</h1>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
