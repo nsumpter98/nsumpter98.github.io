@@ -1,9 +1,10 @@
 import "./App.css";
+import { Navbar } from "./components/NavBar";
 
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">Sumpter Software LLC</h1>
+      <Navbar />
     </>
   );
 }
