@@ -4,7 +4,7 @@ function App() {
 
   return (
     <>
-      <h1>Sumpter Software LLC</h1>
+      <p>Sumpter Software LLC</p>
     </>
   )
 }
