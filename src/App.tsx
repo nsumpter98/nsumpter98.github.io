@@ -14,7 +14,7 @@ function App() {
       {/* Foreground Logo */}
       <div className="relative flex items-center justify-center min-h-screen">
         <div className="px-8 py-6 rounded-2xl bg-gradient-to-r from-white/20 to-white/10 backdrop-blur-md border border-white/30 shadow-lg">
-          <h1 className="sm:text-3xl md:text-4xl font-extrabold font-mono tracking-wider bg-clip-text bg-gradient-to-r text-white">
+          <h1 className="text-2xl md:text-6xl font-extrabold font-mono tracking-wider bg-clip-text bg-gradient-to-r text-white">
             Sumpter Software LLC
           </h1>
         </div>
