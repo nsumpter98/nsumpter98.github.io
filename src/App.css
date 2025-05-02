@@ -1,0 +1,16 @@
+/* Add this to your App.css */
+html, body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+  
+  .bg-blur {
+    filter: blur(8px);
+    transition: filter 0.3s ease;
+  }
+  
+  .bg-normal {
+    filter: blur(0);
+    transition: filter 0.3s ease;
+  }
