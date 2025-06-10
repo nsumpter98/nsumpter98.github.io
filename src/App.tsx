@@ -1,4 +1,4 @@
-import myImage from "./assets/IMG_4600.jpg";
+import myImage from './assets/IMG_2668.jpeg';
 
 function App() {
   return (
